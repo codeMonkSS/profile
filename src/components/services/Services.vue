@@ -31,8 +31,8 @@
         </div>
       </div>
       <Scrollama
-        :debug="false"
-        :offset=".9"
+        :debug="true"
+        :offset=".7"
         @step-enter="handler"
       >
         <!-- @step-exit="({ element }) => (currStep = $store.state.services.title)" -->

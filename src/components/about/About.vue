@@ -79,7 +79,7 @@ export default {
     }
 
     h1 {
-      font-size: 2vw;
+      font-size: 2.8vw;
       font-weight: 700;
       margin-bottom: .5vw;
       font-family: 'Cormorant Garamond', serif;
@@ -99,7 +99,7 @@ export default {
     }
 
     p, h2 {
-      font-size: 1.2vw;
+      font-size: 1.5vw;
       line-height: 1.3;
       padding: 0 5px;
 

@@ -7,6 +7,7 @@
           <h1 v-html="$store.state.work.header"></h1>
           <h2 v-html="$store.state.work.text"></h2>
         </div>
+        <div class="scroller"><span></span></div>
       </div>
     </div>
     <div class="content">
@@ -19,7 +20,7 @@
         <div class="content-wrapper">
           <div
             v-for="(work, index) in $store.state.work.cases"
-            :key="work"
+            :key="index"
             class="case"
           >
             <img :src="caseImg[index]" :alt="work.name">
@@ -90,7 +91,7 @@ export default {
     progressHandler({ progress }) {
       this.currProgress = progress;
       // eslint-disable-next-line
-      console.log('current progress', progress);
+      // console.log('current progress', progress);
     },
   },
   components: {

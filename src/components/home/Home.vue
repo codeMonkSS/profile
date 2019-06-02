@@ -35,7 +35,7 @@
                :prop="logoName"
             >
               <parallax-container class="horizontal-card centered-card">
-                <parallax-element :parallaxStrength="10" :type="'depth'">
+                <parallax-element :parallaxStrength="30" :type="'depth'">
                   <img :alt="srcUrl" :src="logoName"/>
                 </parallax-element>
               </parallax-container>
@@ -205,6 +205,7 @@ export default {
 
             img {
               width: 100%;
+              max-height: 100%;
               height: auto;
               display: block;
             }

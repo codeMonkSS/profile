@@ -27,6 +27,7 @@
             v-html="dataText"
           >
           </div>
+          <div class="scroller"><span></span></div>
         </div>
       </div>
       <Scrollama

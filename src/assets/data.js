@@ -104,5 +104,5 @@ export default {
       1: 'mailto:me@sajalsinha.co?subject=Portfolio%20Email:%20',
       2: 'https://twitter.com/sajal_sinha',
     },
-  }
+  },
 };

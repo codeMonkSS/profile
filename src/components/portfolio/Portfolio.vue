@@ -19,6 +19,7 @@
         <div class="content-wrapper">
           <div
             v-for="(work, index) in $store.state.work.cases"
+            :key="work"
             class="case"
           >
             <img :src="caseImg[index]" :alt="work.name">

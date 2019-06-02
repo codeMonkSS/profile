@@ -10,6 +10,7 @@
       <div class="parallax-wrap">
         <div
           v-for="(socialLink, index) in $store.state.contact.url"
+          :key="socialLink"
         >
           <a :href="socialLink" target="_blank">
             <parallax-container class="horizontal-card centered-card">
@@ -27,7 +28,7 @@
 
 <script>
 import NavMenu from '@/components/shared/NavMenu.vue';
-import PageFooter from "../shared/PageFooter"
+import PageFooter from '@/components/shared/PageFooter.vue';
 
 export default {
   name: 'Contact',

@@ -31,7 +31,7 @@
         </div>
       </div>
       <Scrollama
-        :debug="true"
+        :debug="false"
         :offset=".7"
         @step-enter="handler"
       >

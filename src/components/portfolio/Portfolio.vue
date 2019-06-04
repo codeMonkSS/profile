@@ -209,6 +209,10 @@ export default {
           background-color: rgba(0, 0, 0, .75);
           color: #f1f1f1;
 
+          @media (max-width: 676px) {
+            bottom: 0;
+          }
+
           h3 {
             font-size: 24px;
             font-weight: 700;

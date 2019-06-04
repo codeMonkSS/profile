@@ -86,7 +86,7 @@ export default {
         name: 'FDB Møbler',
         title: 'Danish Stylish Furniture Store',
         url: 'https://fdbmobler.dk/',
-        skills: 'Javascript, Responsive, Responsive, Umbraco',
+        skills: 'Javascript, Responsive, Gulp, Umbraco',
       },
       8: {
         name: 'Godt Smil',

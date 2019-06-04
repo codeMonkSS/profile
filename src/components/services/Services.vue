@@ -326,7 +326,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    visibility: hidden;
+    // visibility: hidden;
     opacity: 0;
     transition: all 800ms;
     flex-direction: column;
@@ -334,7 +334,7 @@ export default {
     text-shadow: 0 0 3px #000;
 
     &.active {
-      visibility: visible;
+      // visibility: visible;
       opacity: 1;
     }
 

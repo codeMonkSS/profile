@@ -32,7 +32,7 @@
       </div>
       <Scrollama
         :debug="false"
-        :offset=".7"
+        :offset=".8"
         @step-enter="handler"
       >
         <!-- @step-exit="({ element }) => (currStep = $store.state.services.title)" -->
@@ -320,7 +320,7 @@ export default {
     width: 80%;
     max-width: 550px;
     height: 50vh;
-    max-height: 300px;
+    // max-height: 300px;
     margin: 0 auto 30vh;
     color: #f1f1f1;
     display: flex;

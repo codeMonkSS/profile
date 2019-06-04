@@ -1,11 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './components/home/Home.vue';
-import About from './components/about/About.vue';
-import Services from './components/services/Services.vue';
-import Portfolio from './components/portfolio/Portfolio.vue';
-import Blog from './components/blog/Blog.vue';
-import Contact from './components/contact/Contact.vue';
 
 Vue.use(Router);
 
